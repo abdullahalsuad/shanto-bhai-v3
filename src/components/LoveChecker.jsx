@@ -39,7 +39,7 @@ const LoveChecker = () => {
       `My love for you grows every day, <br/>
   Boundless as the ocean's spray. <br/>
   From the depths of my heart, I say, <br/>
-  I love you more than words convey. <br/>
+  I love you more than words convey. <br/> <br>
   I love you from my heart <b>${name.toUpperCase()}</b> ❤️
   ha ha ha Etai Bastob 😂`
     );

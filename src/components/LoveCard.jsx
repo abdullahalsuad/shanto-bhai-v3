@@ -58,22 +58,11 @@ const LoveCard = ({ formData, handleChange, handleSubmit, message }) => {
           </button>
         </form>
 
-        {/* {message && <p className="mt-4 text-center font-semibold">{message}</p>} */}
-        {message ? (
-          <div className="mt-4 text-center">
-            <div className="space-y-1">
-              <p>My love for you grows every day,</p>
-              <p>Boundless as the ocean&apos;s spray.</p>
-              <p>From the depths of my heart, I say,</p>
-              <p>I love you more than words convey.</p>
-              <p>
-                I love you from my heart{" "}
-                <b className="text-red-600">{message}</b> ❤️
-              </p>
-              <p>ha ha ha Etai Bastob 😂</p>
-            </div>
-          </div>
-        ) : null}
+        {/* {message && <p className="mt-4 text-center ">{message}</p>} */}
+        <p
+          className="mt-4  text-center "
+          dangerouslySetInnerHTML={{ __html: message }}
+        ></p>
       </div>
     </div>
   );

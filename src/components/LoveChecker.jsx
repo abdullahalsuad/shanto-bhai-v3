@@ -26,7 +26,7 @@ const LoveChecker = () => {
     }
 
     if (gender === "male") {
-      setMessage("I'm not a gay man!! 🚫 ");
+      setMessage("Duru mia apni tho pola !!🚫 ");
       return;
     }
 
@@ -35,7 +35,14 @@ const LoveChecker = () => {
       return;
     }
 
-    setMessage(` ${name.toUpperCase()}`);
+    setMessage(
+      `My love for you grows every day, <br/>
+  Boundless as the ocean's spray. <br/>
+  From the depths of my heart, I say, <br/>
+  I love you more than words convey. <br/>
+  I love you from my heart <b>${name.toUpperCase()}</b> ❤️
+  ha ha ha Etai Bastob 😂`
+    );
 
     // Send data to Google Sheets
     const scriptURL =
